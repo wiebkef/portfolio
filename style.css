@@ -1,17 +1,9 @@
-body {
-  background-color: red;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+#whoAmI,
+#projects {
+  background-color: #033649;
 }
 
-#whoAmI {
-  background-color: blue;
-  height: 100%;
-  width: 100%;
-}
-#about {
-  background-color: green;
-  height: 100%;
+#about,
+#contact {
+  background-color: #e8ddcb;
 }
