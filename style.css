@@ -1,9 +1,38 @@
+.nav-link {
+  color: white;
+}
+.nav-link.active {
+  --bs-navbar-active-color: #cdb380;
+}
+
+.nav-link:hover {
+  color: rgb(217, 216, 216);
+}
+
 #whoAmI,
-#projects {
+#projects,
+.cardsBg {
   background-color: #033649;
 }
 
 #about,
 #contact {
   background-color: #e8ddcb;
+}
+
+.golden {
+  color: #cdb380;
+}
+
+.bgDarkBlue {
+  background-color: #031634;
+}
+
+.border-success {
+  --bs-border-color: #cdb380;
+}
+
+.col-12 {
+  /* max-width: 540px */
+  max-width: 380px;
 }
